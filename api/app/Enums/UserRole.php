@@ -7,6 +7,7 @@ enum UserRole: string
     case ADMIN = 'admin';
     case GUIDE = 'guide';
     case DRIVER = 'driver';
+    case SELLER = 'seller';
 
     public static function values()
     {
@@ -19,6 +20,7 @@ enum UserRole: string
             self::ADMIN->value => 'Administrador',
             self::GUIDE->value => 'Guía Turístico',
             self::DRIVER->value => 'Conductor',
+            self::SELLER->value => 'Vendedor',
             default => null
         };
     }
