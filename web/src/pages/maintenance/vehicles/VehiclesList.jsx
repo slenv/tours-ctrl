@@ -137,7 +137,7 @@ export default function VehiclesList() {
               onClick={() => openModal('vehicles-trash-modal')}
             >
               <i className="feather icon-trash-2 me-2"></i>
-              Ver Papelera
+              Papelera
             </Button>
           </div>
         }

@@ -133,7 +133,7 @@ export default function CustomersList() {
               onClick={() => openModal('customers-trash-modal')}
             >
               <i className="feather icon-trash-2 me-2"></i>
-              Ver Papelera
+              Papelera
             </Button>
           </div>
         }
